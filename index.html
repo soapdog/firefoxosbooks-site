@@ -17,18 +17,18 @@
 
   <script id="book-template" type="text/x-handlebars-template">
   {{#each books}}
-  <div class="posts">
+  <div class="posts" itemscope itemtype="http://schema.org/Book">
     <h1 class="content-subhead">{{status}} book</h1>
 
     <!-- A single blog post -->
     <section class="post">
       <header class="post-header">
-        <img class="post-book" alt="{{title}} cover" src="{{cover}}">
+        <img class="post-book" alt="{{title}} cover" itemprop="image" src="{{cover}}">
 
-        <h2 class="post-title">{{title}}</h2>
+        <h2 class="post-title" itemprop="name">{{title}}</h2>
 
         <p class="post-meta">
-          By <a href="http://twitter.com/{{twitter}}" class="post-author">{{author}}</a> license <a class="post-category post-category-design" href="#">{{license}}</a> price <a class="post-category post-category-pure" href="#">{{price}}</a>
+          By <a href="http://twitter.com/{{twitter}}" class="post-author" itemprop="author">{{author}}</a> license <a class="post-category post-category-design" href="#">{{license}}</a> price <a class="post-category post-category-pure" href="#" itemprop="price">{{price}}</a>
         </p>
 
       </header>
@@ -38,7 +38,7 @@
         {{{description}}}
         </p>
 
-        <a class="pure-button pure-button-primary" href="{{url}}">Learn More &rarr;</a>
+        <a class="pure-button pure-button-primary" href="{{url}}" itemprop="url">Learn More &rarr;</a>
       </div>
       {{#if translations}}
       <p>This book has translations in:</p>
