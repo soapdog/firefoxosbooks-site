@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A website about books related to Firefox OS development.">
+  <meta name="keywords" content="firefox, firefoxos, firefox os, mozilla, books, ebooks, pdf, epub, mobi">
+
+  <title>Firefox OS Books</title>
+
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+
+
+  <!--[if lte IE 8]>
+
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-old-ie-min.css">
+
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
+
+  <!--<![endif]-->
+
+
+
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="css/layouts/blog-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="css/layouts/blog.css">
+  <!--<![endif]-->
+</head>
+<body>
+
+  <div id="layout" class="pure-g">
+    <div class="sidebar pure-u-1 pure-u-md-1-4">
+      <div class="header">
+        <hgroup>
+          <h1 class="brand-title">Firefox OS Books</h1>
+          <h2 class="brand-tagline">Resources for developers</h2>
+        </hgroup>
+
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a class="pure-button" href="https://developer.mozilla.org/en-US/Firefox_OS">Firefox OS on MDN</a>
+            </li>
+            <li class="nav-item">
+              <a class="pure-button" href="http://marketplace.firefox.com/developers">Developer Hub</a>
+            </li>
+          </ul>
+          <div class="source-link">
+            <span>Site source: <a href="https://github.com/soapdog/firefoxosbooks-site">Github</a></span>
+            <p>To contribute open a new issue on Github pointing to the new book.</p>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <div class="content pure-u-1 pure-u-md-3-4">
+      <div id="books">
+        <!-- A wrapper for all the blog posts -->
+        {{#each books}}
+        <div class="posts" itemscope itemtype="http://schema.org/Book">
+          <h1 class="content-subhead">{{status}} book</h1>
+
+          <!-- A single blog post -->
+          <section class="post">
+            <header class="post-header">
+              <img class="post-book" alt="{{title}} cover" itemprop="image" src="{{cover}}">
+
+              <h2 class="post-title" itemprop="name">{{title}}</h2>
+
+              <p class="post-meta">
+                By <a href="http://twitter.com/{{twitter}}" class="post-author" itemprop="author">{{author}}</a> license <a class="post-category post-category-design" href="#">{{license}}</a> price <a class="post-category post-category-pure" href="#" itemprop="price">{{price}}</a>
+              </p>
+
+            </header>
+
+            <div class="post-description">
+              <p>
+              {{{description}}}
+              </p>
+
+              <a class="pure-button pure-button-primary" href="{{url}}" itemprop="url">Learn More &rarr;</a>
+            </div>
+            {{#if translations}}
+            <p>This book has translations in:</p>
+            {{#each translations}}
+            <a class="pure-button pure-button-secondary" href="{{url}}">{{language}}: {{title}} &rarr;</a>
+            {{/each}}
+            {{/if}}
+
+            </section>
+          </div>
+        {{/each}}
+
+          <div class="footer">
+            <div class="pure-menu pure-menu-horizontal pure-menu-open">
+              <ul>
+                <li><a href="https://github.com/soapdog/firefoxosbooks-site">This Site on GitHub</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  </html>

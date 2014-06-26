@@ -1,4 +1,4 @@
-var data = {
+module.exports = {
   books: [
     {
       "title": "Quick Guide for Firefox OS Development",
