@@ -1,4 +1,6 @@
-firefoxosbooks-site
-===================
+Firefox OS Books website
+========================
 
-A site to list the currently available books about Firefox OS
+A site about books for Firefox OS. Browse the live site at:
+
+[http://firefoxosbooks.org]
