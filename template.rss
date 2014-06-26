@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+ <title>Firefox OS Books</title>
+ <description>A site to list books about Firefox OS</description>
+ <link>http://firefoxosbooks.org</link>
+ <lastBuildDate>Mon, 06 Sep 2010 00:01:00 +0000 </lastBuildDate>
+ <pubDate>Sun, 06 Sep 2009 16:20:00 +0000</pubDate>
+ <ttl>1800</ttl>
+
+{{#each books}}
+ <item>
+  <title>{{title}}</title>
+  <description>{{description}}</description>
+  <link>{{url}}</link>
+  <category>book</category>
+  <guid>{{url}}</guid>
+ </item>
+{{/each}}
+
+</channel>
+</rss>

@@ -5,8 +5,16 @@ var templateData = require("./data/data.js");
 
 gulp.task('default', function () {
 
-    return gulp.src('template.html')
+    var a = gulp.src('template.html')
         .pipe(handlebars(templateData, null))
         .pipe(rename('index.html'))
+        .pipe(gulp.dest('./'))
+
+
+    var b = gulp.src('template.rss')
+        .pipe(handlebars(templateData, null))
+        .pipe(rename('rss.xml'))
         .pipe(gulp.dest('./'));
+
+    return a && b
 });
