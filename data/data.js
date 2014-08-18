@@ -44,7 +44,7 @@ module.exports = {
       "title": "Building Games for Firefox OS",
       "author": "Andre Alves Garzia",
       "twitter": "soapdog",
-      "status": "Unpublished",
+      "status": "published",
       "url": "https://leanpub.com/buildinggamesforfirefoxos/",
       "cover": "https://s3.amazonaws.com/titlepages.leanpub.com/buildinggamesforfirefoxos/large?1403752894",
       "price": "FREE",
