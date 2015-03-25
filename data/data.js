@@ -48,7 +48,8 @@ module.exports = {
       "url": "https://leanpub.com/firefoxosinaction",
       "cover": "https://s3.amazonaws.com/titlepages.leanpub.com/firefoxosinaction/hero?1427198916",
       "price": "FREE",
-      "license": "Commercial"
+      "license": "Commercial",
+      "description":"Firefox OS in Action is the definitive guide for anyone who wants to build applications for Firefox OS. It teaches you how to create great looking, responsive and functional applications from the ground up. In the book you'll find sensor usage, animations, design, offline usage and much more."
     },
     {
       "title": "Building Games for Firefox OS",
