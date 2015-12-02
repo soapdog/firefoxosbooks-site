@@ -18,6 +18,14 @@
  </item>
 
  <item>
+  <title>Learning Firefox OS Application Development</title>
+  <description>This is a practical guide that uses hands-on examples to teach you how to create applications for Firefox OS and also how to port applications to Firefox Marketplace. This book is intended for developers who want to build applications for Firefox OS. An understanding of HTML5, JavaScript, and CSS is required.</description>
+  <link>http://www.amazon.com/Learning-Firefox-OS-Application-Development/dp/1783989408/</link>
+  <category>book</category>
+  <guid>http://www.amazon.com/Learning-Firefox-OS-Application-Development/dp/1783989408/</guid>
+ </item>
+
+ <item>
   <title>Beginning Firefox OS HTML5 Game Programming</title>
   <description>In this book three standard game technologies are examined, compared, and contrasted: CSS Sprites, Canvas, and SVG (Scalable Vector Graphics). You will see examples using each of the three to move graphics, detect collisions, and more. Variations within Canvas and SVG are explored as well. You&#x27;ll also see examples for phone-specific technologies such as Touch, Vibration, Device Orientation, and Screen Orientation. You&#x27;ll also be shown how to upgrade your Firefox OS phone, how to use the Simulator if you don&#x27;t have a phone, and how to use the App Manager to put your apps on phones.&lt;br&gt;&lt;br&gt;This book assumes you know the basics of HTML5, CSS, and JavaScript, and that you are interested in making games. Concepts and code are explained carefully along the way and newer options like CSS Sprites and SVG are covered extensively, as well as current JavaScript and HTML5 tips and tricks. In fact, except for the phone-specific chapters, you can use these techniques to make HTML5 games for other platforms. All the code is straight HTML5, CSS, SVG, and JavaScript with no libraries, no jQuery, nothing but pure code. The focus is 100% on Firefox OS games and I hope you will be inspired to create games for this fast-growing platform.&lt;br&gt;&lt;br&gt;The book is written in an informal, friendly style that invites the reader to come along and explore the fun that is Firefox OS! There isn&#x27;t just one way to write a game, there are a great many, and it is hoped that this book can inform and inspire you to make your own games.</description>
   <link>http://www.amazon.com/gp/product/B00IZUYIGO/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00IZUYIGO&amp;linkCode=as2&amp;tag=andregacom02-20&amp;linkId=4E2H6GAKNOAY2OXM</link>

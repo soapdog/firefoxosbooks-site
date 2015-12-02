@@ -18,6 +18,17 @@ module.exports = {
         }
       ]
     },
+     {
+      "title": "Learning Firefox OS Application Development",
+      "author": "Tanay Pant",
+      "twitter": "tanay1337",
+      "status": "published",
+      "url": "http://www.amazon.com/Learning-Firefox-OS-Application-Development/dp/1783989408/",
+      "cover": "http://ecx.images-amazon.com/images/I/51IPuwdjHzL._SX404_BO1,204,203,200_.jpg",
+      "price": "$23.99",
+      "license": "Commercial",
+      "description": "This is a practical guide that uses hands-on examples to teach you how to create applications for Firefox OS and also how to port applications to Firefox Marketplace. This book is intended for developers who want to build applications for Firefox OS. An understanding of HTML5, JavaScript, and CSS is required."
+    },
     {
       "title": "Beginning Firefox OS HTML5 Game Programming",
       "author": "Bob Thulfram",
