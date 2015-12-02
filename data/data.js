@@ -52,6 +52,17 @@ module.exports = {
       "description": "The book is provide an overview of the javascript written OS: FirefoxOS front end - gaia. We'd like to document and findout how mozilla and the community design and achieve this ongoing great goal. And try to learn things from their design decisions. The book help developers understand how B2G and Gaia fit together. And shows how the system startup and the app launching process.",
     },
     {
+      "title": "Firefox OS in Action",
+      "author": "Jan Jongboom",
+      "twitter": "janjongboom",
+      "status": "Published",
+      "url": "https://leanpub.com/firefoxosinaction",
+      "cover": "https://s3.amazonaws.com/titlepages.leanpub.com/firefoxosinaction/hero?1427198916",
+      "price": "FREE",
+      "license": "Commercial",
+      "description":"Firefox OS in Action is the definitive guide for anyone who wants to build applications for Firefox OS. It teaches you how to create great looking, responsive and functional applications from the ground up. In the book you'll find sensor usage, animations, design, offline usage and much more."
+    },
+    {
       "title": "Building Games for Firefox OS",
       "author": "Andre Alves Garzia",
       "twitter": "soapdog",
